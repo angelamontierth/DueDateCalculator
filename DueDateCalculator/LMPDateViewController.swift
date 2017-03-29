@@ -20,8 +20,10 @@ class LMPDateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // call functions here
         
+        self.view.backgroundColor =
+        // call functions here
+        setupElements()
         
 
     }
@@ -35,7 +37,11 @@ class LMPDateViewController: UIViewController {
         lmpLabel.textColor = UIColor.black
         
         // Date Picker setup
-        datePicker.date
+        datePicker.datePickerMode = UIDatePicker.dat
+        
+        // Calculate button Setup
+        
+        // calculateButton.titleLabel = "Calculate"
         
         
         
