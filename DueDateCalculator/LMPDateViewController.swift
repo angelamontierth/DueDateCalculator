@@ -35,7 +35,7 @@ class LMPDateViewController: UIViewController {
         lmpLabel.textColor = UIColor.black
         
         // Date Picker setup
-        datePicker.
+        datePicker.date
         
         
         
