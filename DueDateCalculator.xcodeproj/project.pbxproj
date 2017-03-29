@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3536CA71E89A6BB001E9D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3536CA61E89A6BB001E9D1F /* AppDelegate.swift */; };
+		C3536CAC1E89A6BB001E9D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3536CAA1E89A6BB001E9D1F /* Main.storyboard */; };
+		C3536CAE1E89A6BB001E9D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3536CAD1E89A6BB001E9D1F /* Assets.xcassets */; };
+		C3536CB11E89A6BB001E9D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3536CAF1E89A6BB001E9D1F /* LaunchScreen.storyboard */; };
+		C3536CDB1E89C7E8001E9D1F /* DueDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3536CDA1E89C7E8001E9D1F /* DueDateViewController.swift */; };
+		C3D362641E8B1EA4003EF163 /* DueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D362631E8B1EA4003EF163 /* DueDate.swift */; };
+		C3D362661E8B1ED4003EF163 /* LMPDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D362651E8B1ED4003EF163 /* LMPDateViewController.swift */; };
+		C3D362681E8B1EED003EF163 /* DueDateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D362671E8B1EED003EF163 /* DueDateController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3536CA31E89A6BB001E9D1F /* DueDateCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DueDateCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3536CA61E89A6BB001E9D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3536CAB1E89A6BB001E9D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3536CAD1E89A6BB001E9D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3536CB01E89A6BB001E9D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3536CB21E89A6BB001E9D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3536CDA1E89C7E8001E9D1F /* DueDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DueDateViewController.swift; sourceTree = "<group>"; };
+		C3D362631E8B1EA4003EF163 /* DueDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DueDate.swift; sourceTree = "<group>"; };
+		C3D362651E8B1ED4003EF163 /* LMPDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMPDateViewController.swift; sourceTree = "<group>"; };
+		C3D362671E8B1EED003EF163 /* DueDateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DueDateController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3536CA01E89A6BB001E9D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3536C9A1E89A6BB001E9D1F = {
+			isa = PBXGroup;
+			children = (
+				C3536CA51E89A6BB001E9D1F /* DueDateCalculator */,
+				C3536CD81E89C10A001E9D1F /* Model */,
+				C3536CD71E89B07D001E9D1F /* Storyboards */,
+				C3536CD61E89B061001E9D1F /* SupportFiles */,
+				C3536CA41E89A6BB001E9D1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3536CA41E89A6BB001E9D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3536CA31E89A6BB001E9D1F /* DueDateCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3536CA51E89A6BB001E9D1F /* DueDateCalculator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DueDateCalculator;
+			sourceTree = "<group>";
+		};
+		C3536CD61E89B061001E9D1F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C3536CA61E89A6BB001E9D1F /* AppDelegate.swift */,
+				C3536CAD1E89A6BB001E9D1F /* Assets.xcassets */,
+				C3536CAF1E89A6BB001E9D1F /* LaunchScreen.storyboard */,
+				C3536CB21E89A6BB001E9D1F /* Info.plist */,
+			);
+			name = SupportFiles;
+			path = DueDateCalculator;
+			sourceTree = "<group>";
+		};
+		C3536CD71E89B07D001E9D1F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C3536CAA1E89A6BB001E9D1F /* Main.storyboard */,
+				C3536CDA1E89C7E8001E9D1F /* DueDateViewController.swift */,
+			);
+			name = Storyboards;
+			path = DueDateCalculator;
+			sourceTree = "<group>";
+		};
+		C3536CD81E89C10A001E9D1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3D362631E8B1EA4003EF163 /* DueDate.swift */,
+				C3D362651E8B1ED4003EF163 /* LMPDateViewController.swift */,
+				C3D362671E8B1EED003EF163 /* DueDateController.swift */,
+			);
+			name = Model;
+			path = DueDateCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3536CA21E89A6BB001E9D1F /* DueDateCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3536CB51E89A6BB001E9D1F /* Build configuration list for PBXNativeTarget "DueDateCalculator" */;
+			buildPhases = (
+				C3536C9F1E89A6BB001E9D1F /* Sources */,
+				C3536CA01E89A6BB001E9D1F /* Frameworks */,
+				C3536CA11E89A6BB001E9D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DueDateCalculator;
+			productName = DueDateCalculator;
+			productReference = C3536CA31E89A6BB001E9D1F /* DueDateCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3536C9B1E89A6BB001E9D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Angela Montierth";
+				TargetAttributes = {
+					C3536CA21E89A6BB001E9D1F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C3536C9E1E89A6BB001E9D1F /* Build configuration list for PBXProject "DueDateCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3536C9A1E89A6BB001E9D1F;
+			productRefGroup = C3536CA41E89A6BB001E9D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3536CA21E89A6BB001E9D1F /* DueDateCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3536CA11E89A6BB001E9D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3536CB11E89A6BB001E9D1F /* LaunchScreen.storyboard in Resources */,
+				C3536CAE1E89A6BB001E9D1F /* Assets.xcassets in Resources */,
+				C3536CAC1E89A6BB001E9D1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3536C9F1E89A6BB001E9D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D362661E8B1ED4003EF163 /* LMPDateViewController.swift in Sources */,
+				C3D362681E8B1EED003EF163 /* DueDateController.swift in Sources */,
+				C3536CA71E89A6BB001E9D1F /* AppDelegate.swift in Sources */,
+				C3536CDB1E89C7E8001E9D1F /* DueDateViewController.swift in Sources */,
+				C3D362641E8B1EA4003EF163 /* DueDate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3536CAA1E89A6BB001E9D1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3536CAB1E89A6BB001E9D1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3536CAF1E89A6BB001E9D1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3536CB01E89A6BB001E9D1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3536CB31E89A6BB001E9D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3536CB41E89A6BB001E9D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3536CB61E89A6BB001E9D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DueDateCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DueDateCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3536CB71E89A6BB001E9D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DueDateCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DueDateCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3536C9E1E89A6BB001E9D1F /* Build configuration list for PBXProject "DueDateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3536CB31E89A6BB001E9D1F /* Debug */,
+				C3536CB41E89A6BB001E9D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3536CB51E89A6BB001E9D1F /* Build configuration list for PBXNativeTarget "DueDateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3536CB61E89A6BB001E9D1F /* Debug */,
+				C3536CB71E89A6BB001E9D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3536C9B1E89A6BB001E9D1F /* Project object */;
+}
