@@ -9,10 +9,11 @@
 import Foundation
 
 class DueDateController {
+    
 
     static let shared = DueDateController()
     
-    //
+    var dueDate: Date?
     
     func calculateDueDate(lmpDate: Date) {
         
@@ -22,7 +23,7 @@ class DueDateController {
         
         let formattedDate = Date(timeIntervalSince1970: dueDate)
         
-        print(formattedDate)
+        self.dueDate = formattedDate
         
     }
 }
